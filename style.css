@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #536691;
+    color: white;
+}
+.cont{
+    text-align: center;
+    width: 65%;
+    margin: 50px auto;
+}
+h1{
+    font-size: 80px;
+}
+.list{
+    color: black;
+    width: 90%;
+    text-align: left;
+    margin: 30px auto;
+}
