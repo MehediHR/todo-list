@@ -16,8 +16,7 @@ function myFunction(){
            $(this).parent().toggleClass("lint");
         });
         var del =$('<i class="fa fa-trash float-right" aria-hidden="true"></i>').click(function(){
-            var tem = $(this).parent();
-            tem.remove();
+            $(this).parent().remove();
         });
         txt.prepend(check);
         txt.append(del);
