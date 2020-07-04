@@ -12,10 +12,10 @@ $(document).ready(function() {
 function myFunction(){
     if($("#inp").val() != ""){
         var txt = $('<li class="list-group-item"></li>').text($("#inp").val());
-        var check =$('<input class="mr-3" type="checkbox"></input>').click(function(){
+        var check =$('<input class="mr-3 cur" type="checkbox"></input>').click(function(){
            $(this).parent().toggleClass("lint");
         });
-        var del =$('<i class="fa fa-trash float-right" aria-hidden="true"></i>').click(function(){
+        var del =$('<i class="fa fa-trash float-right cur" aria-hidden="true"></i>').click(function(){
             $(this).parent().remove();
         });
         txt.prepend(check);
